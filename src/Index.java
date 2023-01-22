@@ -5,4 +5,9 @@ public class Index {
         this.row = row;
         this.column = column;
     }
+
+    @Override
+    public String toString() {
+        return "row: "+ this.row + ", column: "+this.column;
+    }
 }
